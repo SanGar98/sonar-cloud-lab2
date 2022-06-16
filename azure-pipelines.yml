@@ -20,7 +20,7 @@ steps:
 - task: SonarCloudPrepare@1
   displayName: 'Prepare analysis configuration'
   inputs: 
-   SonarCloud: 'Testing'
+   SonarCloud: 'sonarcloud'
    organization: 'sangar98'
    scannerMode: Other
    # Additional properties that will be passed to the scanner,
